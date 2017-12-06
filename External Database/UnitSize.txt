@@ -1,0 +1,4 @@
+LB: Pound
+KG: Kilo Gram
+Q: Quantity
+C: Case

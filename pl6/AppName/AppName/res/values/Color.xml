@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_view_Background">#CFCFCF</color>
+    <color name="list_view_items">#F0F0F0</color>
+    <color name="main_color">#FFCC66</color>
+    <color name="black">#000000</color>
+    <color name="grey">#FFC0C0C0</color>
+    <color name="selected">#FFCC66</color>
+    <color name="long_clicked">#FFD685</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_grey">#FEC0C0C0</color>
+    <color name="red">#FF3333</color>
+</resources>

@@ -1,0 +1,22 @@
+Stuff to do
+	- Put all calls to databases in seperate threads
+	- Put loading listviews/custom list adapters in seperate threads
+	- database naming standard
+	- How much to handle all the similar methods in DBAdapter
+	- Handling/passing data retrieved from database
+	- How to identify stores, unique id? street address?
+	- How to organize adding favourites
+	- naming sql tables: spaces, other chars
+	- Block multiple additions of single product
+	- Add a color change when item is selected
+	-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Google places http://blog.brianbuikema.com/2010/08/android-development-part-1-using-googles-places-api-to-develop-compelling-location-based-mobile-applications/

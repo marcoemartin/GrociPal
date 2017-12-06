@@ -1,0 +1,25 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    
+<item 
+    android:id="@+id/action_edit"
+    android:icon="@drawable/ic_action_edit"
+    myapp:showAsAction="ifRoom"
+    android:title="@string/edit"
+    />
+
+<item
+    android:id="@+id/action_delete"
+    android:icon="@drawable/ic_menu_delete"
+    myapp:showAsAction="ifRoom"
+    android:title="@string/action_delete" />
+
+<item
+    android:id="@+id/action_add"
+    android:icon="@drawable/ic_input_add"
+    myapp:showAsAction="always"
+    android:title="@string/add_items" />
+
+</menu>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_list_view"
+    android:descendantFocusability="blocksDescendants" >
+    
+	<ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/tag_icon"
+        android:focusable="false"
+    	android:focusableInTouchMode="false"
+    	android:background="@null"
+    	android:padding="10dp" />
+	
+	<View
+	    android:id="@+id/divider_line"
+    	android:layout_height="fill_parent"
+    	android:layout_width="1dp"
+    	android:background="@color/red"/>
+    
+	<RelativeLayout
+        android:id="@+id/sample_activity_list_group_item_background"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    
+		<TextView
+	        android:id="@+id/itemName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:paddingTop="10dp"
+	        android:layout_marginLeft="20dp"
+	        android:text = "cosdef"
+	        android:textSize="16sp" />
+	
+		<TextView
+		    android:id="@+id/units_amount"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toLeftOf="@+id/fav"
+		    android:layout_centerVertical="true"
+		    android:text="23 Wuantity"
+		    android:textSize="12sp"
+		    android:textColor="@color/dark_grey"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:paddingRight="5dp" />
+	
+		<ToggleButton
+		    android:id="@+id/fav"
+		    android:layout_width="28dp"
+		    android:layout_height="28dp"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:background="@drawable/favourite_toggle" />
+		</RelativeLayout>
+
+</LinearLayout>

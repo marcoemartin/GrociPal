@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="PrimaryPagesArray">
+        <item>Home</item>
+        <item>Stores</item>
+        <item>Manage Lists</item>
+        <item>Favourites</item>
+        <item>Settings</item>
+        <item>About</item>
+    </array>
+    
+    <array name="StoreInfoArray">
+        <item>Hours</item>
+        <item>Directions</item>
+        <item>Flyer</item>
+        <item>Phone Number</item>
+        <item>Website</item>
+        <item>Add to favourites</item>
+    </array>
+    
+    
+    <array name="CensoredTables">
+        <item>brands2014</item>
+        <item>brands2014_content</item>
+        <item>brands2014_segdir</item>
+        <item>brands2014_segments</item>
+        
+        <item>favouriteItems2014</item>
+        <item>favouriteItems2014_content</item>
+        <item>favouriteItems2014_segdir</item>
+        <item>favouriteItems2014_segments</item>
+        
+        <item>favouriteStores2014</item>
+        <item>favouriteStores2014_content</item>
+        <item>favouriteStores2014_segdir</item>
+        <item>favouriteStores2014_segments</item>
+        
+        <item>housecareitems2014</item>
+       	<item>housecareitems2014_content</item>
+        <item>housecareitems2014_segdir</item>
+        <item>housecareitems2014_segments</item>
+        
+        <item>hygenicitems2014</item>
+        <item>hygenicitems2014_content</item>
+        <item>hygenicitems2014_segdir</item>
+        <item>hygenicitems2014_segments</item>
+        
+        <item>products2014</item>
+        <item>products2014_content</item>
+        <item>products2014_segdir</item>
+        <item>products2014_segments</item>
+        
+        <item>stores2014</item>
+        <item>stores2014_content</item>
+        <item>stores2014_segdir</item>
+        <item>stores2014_segments</item>
+        
+        <item>android_metadata</item>
+        <item>sqlite_sequence</item>
+    </array>
+    
+    
+    <array name="UnitsVolume">
+        <item>Milliliter(mL)</item>
+        <item>Liter(L)</item>
+        <item>Gallon(gal)</item>
+        <item>Fluid Ounce(fl oz)</item>
+        <item>Quart(qt)</item>
+        <item></item>
+    </array>
+    
+    <array name="UnitsMass">
+        <item>Kilogram(kg)</item>
+        <item>Gram(g)</item>
+        <item>Ounce(oz)</item>
+        <item>Pound(lb)</item>
+    </array>
+    
+    <array name="UnitsQuantity">
+        <item>Quantity</item>
+    </array>
+    
+    <array name="UsingMass">
+        <item>Spices &amp; Herbs</item>
+        <item>Seafood</item>
+        <item>Poultry</item>
+        <item>Meat Alternatives</item>
+        <item>Meat</item>
+        <item>Fish</item>
+        <item>Baking</item>
+    </array>
+    
+    <array name="UsingVolume">
+        <item>Dairy</item>
+        <item>Condiments</item>
+        <item>Cheese</item>
+        <item>Beverages</item>
+    </array>
+    
+    <array name="UsingQuantity">
+        <item>Vegetables</item>
+        <item>Snacks</item>
+        <item>Pet Products</item>
+        <item>Personal Care</item>
+        <item>Office Supplies</item>
+        <item>Medicine</item>
+        <item>Kitchen</item>
+        <item>House Care</item>
+        <item>Frozen</item>
+        <item>Fruit</item>
+        <item>Cleaning Products</item>
+        <item>Canned Food</item>
+        <item>Various Groceries</item>
+        <item>Baby Supplies</item>
+        <item>Miscellaneous</item>
+        <item>Baked Goods</item>
+    </array>
+    
+    <array name="UsingOrganic">
+        <item>Baked Goods</item>
+        <item>Baking</item>
+        <item>Beverages</item>
+        <item>Canned Food</item>
+        <item>Cheese</item>
+        <item>Cleaning Products</item>
+        <item>Condiments</item>
+        <item>Dairy</item>
+        <item>Fruit</item>
+        <item>Fish</item>
+        <item>Frozen</item>
+        <item>Meat</item>
+        <item>Poultry</item>
+        <item>Seafood</item>
+        <item>Snacks</item>
+        <item>Spices &amp; Herbs</item>
+        <item>Vegetables</item>
+    </array>
+    
+    <array name="Categories">
+        <item>Vegetables</item>
+        <item>Fruit</item>
+        <item>Frozen</item>
+        <item>Condiments</item>
+        <item>Various Groceries</item>
+        <item>Canned Food</item>
+        <item>Spices &amp; Herbs</item>
+        <item>Dairy</item>
+        <item>Cheese</item>
+        <item>Meat</item>
+        <item>Meat Alternatives</item>
+        <item>Seafood</item>
+        <item>Beverages</item>
+        <item>Baked Goods</item>
+        <item>Baking</item>
+        <item>Snacks</item>
+        <item>Baby Supplies</item>
+        <item>Pet Products</item>
+        <item>Personal Care</item>
+        <item>Medicine</item>
+        <item>Kitchen</item>
+        <item>Cleaning Products</item>
+        <item>Office Supplies</item>
+        <item>Miscellaneous</item>
+    </array>
+    
+    <array name="CategoryIcons">
+        <item>vegetables_default_icon</item>
+        <item>apple_icon</item>
+        <item>frozen_default_icon</item>
+        <item>sauce_default_icon</item>
+        <item>global_default_icon</item>
+        <item>canned_food_icon</item>
+        <item>salt_icon</item>
+        <item>dairy_default_icon</item>
+        <item>cheese_icon</item>
+        <item>meat_default_icon</item>
+        <item>nut_icon</item>
+        <item>seafood_default_icon</item>
+        <item>beverage_default_icon</item>
+        <item>baked_default_icon</item>
+        <item>baking_default_icon</item>
+        <item>candy_default_icon</item>
+        <item>baby_default_icon</item>
+        <item>pet_default_icon</item>
+        <item>hygenic_default_icon</item>
+        <item>pill_icon</item>
+        <item>kitchen_default_icon</item>
+        <item>housecare_default_icon</item>
+        <item>office_default_icon</item>
+        <item>transport_tire_icon</item>
+    </array>
+    
+    
+    <array name="gpsHome">
+        <item>GPS location</item>
+        <item> Home</item>
+    </array>
+    
+    <array name="gps">
+        <item> GPS location</item>
+    </array>
+    
+    <array name ="valid_stores">
+        <item>NoFrills</item>
+		<item>Metro</item>
+		<item>Loblaws</item>
+		<item>Sobeys</item>
+		<item>Food basics</item>
+        <item>Coppa</item>
+		<item>Walmart</item>
+		<item>T&amp;T Supermarket</item>
+		<item>Foodland</item>
+		<item>FreshCo</item>                                
+    </array>
+    
+        <array name ="store_variations">
+        <item>NoFrills</item>
+		<item>Metro (Metro)</item>
+		<item>Metro Supermarket</item>
+		<item>Loblaws</item>
+		<item>Sobeys</item>
+		<item>Food basics</item>
+		<item>Foodbasics</item>
+        <item>Coppa</item>
+		<item>Walmart</item>
+		<item>T&amp;T Supermarket</item>
+		<item>Foodland</item>
+		<item>FreshCo</item>                                
+    </array>
+    
+        
+                <array name ="metro_variations">
+        <item>Metro</item>
+		<item>Metro (Metro)</item>
+		<item>Metro (Supermarket)</item>
+		<item>Metro</item>
+     </array>
+    
+    
+   </resources>

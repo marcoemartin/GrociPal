@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GrociPal</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home"></string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_flyer">Flyer</string>
+    <string name="title_activity_store_info">&quot;Store Name&quot; Info</string>
+    <string name="title_activity_search_results">Results for: &quot;term&quot;</string>
+    <string name="title_activity_item_info">&quot;Item Name&quot; Info</string>
+    <string name="title_activity_item_browser"></string>
+    <string name="title_activity_list_view">List Name</string>
+    <string name="title_activity_list_management">Lists</string>
+    <string name="title_activity_store_browser">Stores</string>
+    <string name="search_title">Search</string>
+    <string name="add_item_title">Add Items</string>
+    <string name="title_activity_new_edit_list">NewEditList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_primary_base">PrimaryBaseActivity</string>
+    <string name="search_result">Results for: </string>
+    <string name="title_activity_price_check">PriceCheck</string>
+    <string name="travel_cost">Include travel costs in produce estimates</string>
+    <string name="notif">Notification when favourite item is on sale</string>
+    <string name="add_items">Add Items</string>
+    <string name="check_price">Check Price</string>
+    <string name="save_button">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="search_hint">Search apples</string>
+    <string name="search_hint_stores">Search metro</string>
+    <string name="search_label">Products</string>
+    <string name="location_text_view">Current location: </string>
+    <string name="description">Product Description</string>
+    <string name="ok_string">OK</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="ignore_string">Ignore</string>
+    <string name="title_activity_custom_dialog">CustomDialogActivity</string>
+    <string name="no_records">No Records Exist in the Table</string>
+    <string name="title_activity_search_stores">SearchStoresActivity</string>
+    <string name="title_activity_store_info_dialog">StoreInfoDialog</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Rename</string>
+    <string name="details">Details</string>
+    <string name="title_activity_search_products_home">SearchProductsHomeActivity</string>
+    <string name="title_activity_about">About</string>
+    <string name="about">About Us</string>
+    <string name="long_text">Ex tantas causae nusquam duo. Nam accusamus incorrupte at. Nam feugiat maiorum iudicabit at. Ex porro veritus qui, audire probatus in qui, ex vix inermis pertinax. Ad feugiat nominavi intellegebat ius, eos prompta scriptorem ea, at vim percipitur repudiandae. Nihil libris volutpat cum no, id rebum nostrum mea.</string>
+    <string name="summary_on">The preference is on</string>
+    <string name="summary_off">The preference is off</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+
+</resources>

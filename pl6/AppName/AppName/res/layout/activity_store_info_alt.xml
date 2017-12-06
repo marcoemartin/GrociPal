@@ -1,0 +1,54 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:id="@+id/store_info_parent"
+ android:background = "@color/list_view_items"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+    <RelativeLayout
+        android:id="@+id/location_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    	<fragment
+    	    android:id="@+id/map"
+    	    android:name="com.google.android.gms.maps.SupportMapFragment"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="true"
+    	    class="com.google.android.gms.maps.SupportMapFragment" />
+
+    	
+    	<LinearLayout
+	        android:id="@+id/travel"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#CCFFFFFF" >
+            
+    	<TextView
+    	    android:id="@+id/textView1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_marginTop="5dp"
+    	    android:layout_height="50dp"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="true"
+    	    android:textSize="15sp"
+    	    android:text="@string/location_text_view" />
+
+    	<Spinner
+    	    android:id="@+id/location_dropdown"
+    	    android:layout_width="142dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_toRightOf="@+id/textView1"
+    	    android:padding="10sp" />
+    	
+		</LinearLayout>
+</RelativeLayout>

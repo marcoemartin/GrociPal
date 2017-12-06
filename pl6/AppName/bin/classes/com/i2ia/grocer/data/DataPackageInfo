@@ -1,0 +1,8 @@
+Package for managing data persistence and access
+
+
+ - User settings: Use SharedPreferences
+ - List Contents: local SQL DataBase or local text files?
+ - All items: SQL DataBase on server
+ 
+ Downloading images for display - internal storage

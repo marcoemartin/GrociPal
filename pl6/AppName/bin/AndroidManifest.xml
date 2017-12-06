@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.i2ia.grocer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.i2ia.grocer.activities.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.primary.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.primary.FavouritesActivity"
+            android:label="@string/title_activity_favourites" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.FlyerActivity"
+            android:label="@string/title_activity_flyer" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.StoreInfoActivity"
+            android:label="@string/title_activity_store_info" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.SearchResultsActivity"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.ItemInfoActivity"
+            android:label="@string/title_activity_item_info" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.ItemBrowserActivity"
+            android:label="@string/title_activity_item_browser" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.primary.ManageListsActivity"
+            android:label="@string/title_activity_list_management" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.primary.StoreBrowserActivity"
+            android:label="@string/title_activity_store_browser" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.NewEditList"
+            android:label="@string/title_activity_new_edit_list" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.primary.BaseActivity"
+            android:label="@string/title_activity_primary_base"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.i2ia.grocer.activities.secondary.PriceCheck"
+            android:label="@string/title_activity_price_check" >
+        </activity>
+    </application>
+
+</manifest>

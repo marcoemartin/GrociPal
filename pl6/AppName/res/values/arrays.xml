@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="PrimaryPagesArray">
+        <item>Home</item>
+        <item>Stores</item>
+        <item>Manage Lists</item>
+        <item>Favourites</item>
+        <item>Settings</item>
+    </array>
+    
+    <array name="StoreInfoArray">
+        <item>Hours</item>
+        <item>Directions</item>
+        <item>Flyer</item>
+        <item>Phone Number</item>
+        <item>Website</item>
+        <item>Add to favourites</item>
+    </array>
+
+    
+</resources>

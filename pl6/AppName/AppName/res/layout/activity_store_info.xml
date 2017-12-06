@@ -1,0 +1,120 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:id="@+id/store_info_parent"
+ android:background = "@color/list_view_items"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+    	<RelativeLayout
+    	    android:id="@+id/store_info_inner_relative"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="200dp">
+
+    					<View
+    					    android:id="@+id/divider_line"
+    					    android:layout_width="fill_parent"
+    					    android:layout_height="1dp"
+    					    android:layout_alignParentBottom="true"
+    					    android:layout_alignParentLeft="true"
+    					    android:background="@android:color/black" />
+
+    					<ImageView
+    					    android:id="@+id/icon"
+    					    android:layout_width="128dp"
+    					    android:layout_height="wrap_content"
+    					    android:layout_alignParentLeft="true"
+    					    android:layout_alignParentTop="true"
+    					    android:layout_marginLeft="15dp"
+    					    android:src="@android:drawable/alert_dark_frame"
+    					    android:layout_marginTop="15dp" />
+
+    					<Button
+    					    android:id="@+id/flyer"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_alignParentBottom="true"
+    					    android:layout_alignParentRight="true"
+    					    android:text="Flyer" />
+
+    					<TextView
+    					    android:id="@+id/website"
+    					    android:layout_width="wrap_content"
+    					    android:layout_below="@+id/address"
+    					    android:layout_marginTop="10dp"
+    					    android:layout_height="wrap_content"
+    					    android:layout_above="@+id/phone_number"
+    					    android:layout_alignLeft="@+id/icon"
+    					    android:text="Website" />
+
+    					<TextView
+    					    android:id="@+id/phone_number"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_above="@+id/hours"
+    					    android:layout_alignLeft="@+id/website"
+    					    android:text="PhoneNumber" />
+
+    					<TextView
+    					    android:id="@+id/hours"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_above="@+id/flyer"
+    					    android:layout_alignLeft="@+id/phone_number"
+    					    android:layout_marginBottom="29dp"
+    					    android:text="Hours" />
+
+    					<TextView
+    					    android:id="@+id/address"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_alignLeft="@+id/icon"
+    					    android:layout_below="@+id/icon"
+    					    android:text="Address" />
+
+    					<Button
+    					    android:id="@+id/directions"
+    					    style="?android:attr/buttonStyleSmall"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_above="@+id/divider_line"
+    					    android:layout_toLeftOf="@+id/flyer"
+    					    android:text="Directions" />
+
+    					<TextView
+    					    android:id="@+id/title"
+    					    android:layout_width="wrap_content"
+    					    android:layout_height="wrap_content"
+    					    android:layout_alignBottom="@+id/icon"
+    					    android:layout_alignRight="@+id/directions"
+    					    android:layout_marginBottom="16dp"
+    					    android:layout_marginRight="17dp"
+    					    android:text="Store Name" />
+
+    					<ToggleButton
+    					    android:id="@+id/favourite"
+    					    style="?android:attr/buttonStyleSmall"
+    					    android:layout_width="32dp"
+    					    android:layout_height="32dp"
+    					    android:layout_alignParentRight="true"
+    					    android:layout_alignTop="@+id/icon"
+    					    android:background="@drawable/favourite_toggle" />
+    	    
+    	</RelativeLayout>
+    	
+    	
+    	<fragment
+    	    android:id="@+id/map"
+    	    android:layout_margin="10dp"
+    	    android:name="com.google.android.gms.maps.SupportMapFragment"
+    	    class="com.google.android.gms.maps.SupportMapFragment"
+    	    android:layout_width="match_parent"
+    	    android:layout_below="@+id/store_info_inner_relative"
+    	    android:layout_height="fill_parent">
+    	</fragment>
+    	
+
+    	
+		
+</RelativeLayout>

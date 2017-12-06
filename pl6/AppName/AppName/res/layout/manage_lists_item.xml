@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:typeface="normal"
+    android:fontFamily="sans-serif-light"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:textSize="30sp"
+    android:background="@drawable/white_rectangle_selector" />
+

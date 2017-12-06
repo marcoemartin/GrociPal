@@ -1,0 +1,11 @@
+FB: FoodBasics
+NF: NoFrills
+WM: Walmart
+LB: Loblaws
+DM: Dominion
+TT: T&T
+MT: Metro
+FC: FreshCo
+PC: Price Chopper
+SB: Sobeys
+CP: Coppa

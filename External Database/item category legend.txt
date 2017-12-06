@@ -1,0 +1,24 @@
+0 - Vegetables
+1 - Fruit
+2 - Frozen
+3 - Condiments
+4 - Various groceries
+5 - Canned foods
+6 - Spices & herbs
+7 - Dairy
+8 - Cheese
+9 - Meat
+10 - Meat alternatives
+11 - Seafood
+12 - Beverages
+13 - Baked goods
+14 - Baking
+15 - Snacks
+16 - Baby supplies
+17 - Pets
+18 - Personal care
+19 - Medicine
+20 - Kitchen
+21 - Cleaning products
+22 - Office supplies
+23 - Miscellaneous

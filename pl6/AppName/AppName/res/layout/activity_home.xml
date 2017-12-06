@@ -1,0 +1,128 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+
+    <RelativeLayout 
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	   
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:orientation="vertical"
+	    android:background="#FFCC66"
+	    tools:context=".HomeActivity">
+
+        
+        <!-- Backgrounds
+		android:background="@drawable/manage_lists_dark"
+		android:background="@drawable/new_list_dark"
+		android:background="@drawable/favourites_dark" -->
+		            
+            
+                    <Button
+                android:id="@+id/button_manage_lists"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+         	    android:layout_toLeftOf="@+id/button_favourites"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/manage_list"
+                android:text="" />
+                    
+                    
+                                <Button
+                android:id="@+id/button_new_list"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+         	    android:layout_toRightOf="@+id/button_favourites"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/new_list"
+                android:text="" />
+                                
+                                
+			<Button
+                android:id="@+id/button_favourites"
+                android:layout_width="64dp"
+                android:layout_marginTop="100dp"
+                android:layout_height="64dp"
+                android:background="@drawable/favorite_star"
+                android:layout_centerHorizontal="true"
+                android:text="" />
+                                            
+			<View
+			android:id="@+id/divider_line"
+    		android:layout_width="fill_parent"
+			android:layout_marginTop="40dp"
+            android:layout_below="@id/button_favourites"
+    		android:layout_height="1dp"
+    		android:background="@android:color/black"/>
+                    
+         	<LinearLayout
+         	    android:layout_width="match_parent"
+         	    android:layout_height="260dp"
+         	    android:background="#FFD3D3D3"
+         	    android:paddingTop="8dp"
+         	    android:layout_below="@id/divider_line"
+         	    android:layout_alignParentBottom="true" >
+                                 
+				<ListView
+        		android:id="@+id/listView_items_home"
+        		android:paddingLeft="8dp"
+        		android:paddingRight="8dp"
+        		android:layout_width="match_parent"
+        		android:divider="#00FFFFFF"
+        		android:dividerHeight="10dp"
+        		android:layout_height="match_parent"
+        		/>
+				
+			</LinearLayout>
+
+         	<TextView
+         	    android:id="@+id/manage_list"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:layout_below="@+id/button_manage_lists"
+         	    android:layout_marginRight="16dp"
+         	    android:layout_toLeftOf="@+id/button_favourites"
+         	    android:text="Manage lists"
+         	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         	<TextView
+         	    android:id="@+id/new_list"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:layout_below="@+id/button_favourites"
+         	    android:layout_centerHorizontal="true"
+         	    android:text="Favorites"
+         	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         	<TextView
+         	    android:id="@+id/favorites"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:layout_alignLeft="@+id/button_new_list"
+         	    android:layout_below="@+id/button_new_list"
+         	    android:text="New list"
+         	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </RelativeLayout>
+
+    
+    
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:paddingTop="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/grey"
+        android:dividerHeight="1px"
+        android:background="#FEFEFE"/>
+
+</android.support.v4.widget.DrawerLayout>

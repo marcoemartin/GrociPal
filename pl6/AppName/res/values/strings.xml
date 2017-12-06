@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppName</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home"></string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_flyer">Flyer</string>
+    <string name="title_activity_store_info">&quot;Store Name&quot; Info</string>
+    <string name="title_activity_search_results">Results for: &quot;term&quot;</string>
+    <string name="title_activity_item_info">&quot;Item Name&quot; Info</string>
+    <string name="title_activity_item_browser"></string>
+    <string name="title_activity_list_view">List Name</string>
+    <string name="title_activity_list_management">Lists</string>
+    <string name="title_activity_store_browser">Stores</string>
+    <string name="search_title">Search</string>
+    <string name="add_item_title">Add Items</string>
+    <string name="title_activity_new_edit_list">NewEditList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_primary_base">PrimaryBaseActivity</string>
+    <string name="search_result">Results for: </string>
+    <string name="title_activity_price_check">PriceCheck</string>
+
+</resources>
